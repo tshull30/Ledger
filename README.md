@@ -1,9 +1,9 @@
 # Leash
 
-
 ![Leash: an AI trader that can only spend what you allow](docs/media/leash-cover.png)
 
 See [START.md](START.md) to run it.
+
 An agent that researches X, sells what it learns, and trades on it, all within limits you control.
 
 - **Researches:** Grok Bot reads X on a schedule and submits sentiment reports.
