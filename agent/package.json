@@ -1,0 +1,33 @@
+{
+  "name": "oracle-agent-agent",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsx src/agent.ts",
+    "once": "tsx src/agent.ts --once",
+    "markets": "tsx scripts/markets.ts",
+    "pending": "tsx scripts/approve.ts pending",
+    "approve": "tsx scripts/approve.ts approve",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "dashboard": "tsx src/dashboard.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@circle-fin/x402-batching": "^4.0.0",
+    "@x402/core": "^2.31.0",
+    "@x402/evm": "^2.31.0",
+    "dotenv": "^18.0.10",
+    "viem": "^2.57.19",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  },
+  "type": "module"
+}
